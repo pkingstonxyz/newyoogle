@@ -1,32 +1,8 @@
 # newyoogle
 
-FIXME: description
+A silly project for a silly joke.
 
-## Installation
-
-Download from http://example.com/FIXME.
-
-## Usage
-
-FIXME: explanation
-
-    $ java -jar newyoogle-0.1.0-standalone.jar [args]
-
-## Options
-
-FIXME: listing of options this app accepts.
-
-## Examples
-
-...
-
-### Bugs
-
-...
-
-### Any Other Sections
-### That You Think
-### Might be Useful
+Also a great minimal example for a basic server with http-kit, reitit, and hiccup.
 
 ## License
 
