@@ -17,8 +17,9 @@
       [:p.f1.code.mt0.mb3
        (map #(vec [(rand-nth colors) (str %)]) "NewYoogle")]
       [:form.flex.flex-column.items-center.w-100 {:method "GET" :action "https://google.com/search"}
-       [:input.w-50-l.w-75 {:type "text" :name "q"}]
-       [:input.code.mt3 {:type "submit" :value "Search"}]]]]))
+       [:input.w-50-l.w-75.code {:type "text" :name "q"}]
+       [:input.code.mt3 {:type "submit" :value "Search"}]]
+      [:p.f7.code.mt3.moon-gray "Only in New York"]]]))
 
 (def app
   (ring/ring-handler
